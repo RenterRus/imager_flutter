@@ -1,0 +1,4 @@
+#Sun Feb 16 20:24:12 MSK 2025
+base.0=/Users/arturdavydov/pets/imager/imager/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

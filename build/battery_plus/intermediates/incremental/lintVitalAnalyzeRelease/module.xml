@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="/Users/arturdavydov/.pub-cache/hosted/pub.dev/battery_plus-6.2.1/android"
+    name=":battery_plus"
+    type="LIBRARY"
+    maven="dev.fluttercommunity.plus.battery:battery_plus:1.0-SNAPSHOT"
+    agpVersion="8.7.3"
+    buildFolder="/Users/arturdavydov/pets/imager/imager/build/battery_plus"
+    bootClassPath="/Users/arturdavydov/Library/Android/sdk/platforms/android-34/android.jar:/Users/arturdavydov/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>
