@@ -96,7 +96,7 @@ void updStat(){
   getBatteryPercentage();
   view = true;
   data = '${DateTime.now().day}.${DateTime.now().month}.${DateTime.now().year} ${TimeOfDay.now().hour}:${TimeOfDay.now().minute} $percentage%';
-    
+  NetworkImage bufImage = NetworkImage('http://$adr/img?${DateTime.now().millisecondsSinceEpoch.toString()}');
   // Рябим черный и белый
   Timer.run(() =>  setState(() {
     floatVisible = false;
@@ -104,23 +104,23 @@ void updStat(){
     textColor =  Color.fromARGB(255, 0, 0, 0);   
   }));
     
-  Timer(const Duration(seconds: 3), () => setState(() {
+  Timer(const Duration(seconds: 2), () => setState(() {
     im = AssetImage("assets/images/black.jpg");
     textColor =  Color.fromARGB(255, 255, 255, 255);   
   }));
 
-  Timer(const Duration(seconds: 6), () => setState(() {
+  Timer(const Duration(seconds: 5), () => setState(() {
     im = AssetImage("assets/images/white.jpeg");
     textColor =  Color.fromARGB(255, 0, 0, 0);
   }));
 
-  Timer(const Duration(seconds: 9), () => setState(() {
+  Timer(const Duration(seconds: 8), () => setState(() {
     im = AssetImage("assets/images/white.jpeg");
     textColor =  Color.fromARGB(255, 255, 255, 255);
   }));
 
-  Timer(const Duration(seconds: 11), () => setState(() {
-    im =  NetworkImage('http://$adr/img?${DateTime.now().millisecondsSinceEpoch.toString()}');
+  Timer(const Duration(seconds: 10), () => setState(() {
+    im = bufImage;
     textColor =  Color.fromARGB(0, 255, 255, 255);
     floatVisible = true;
   }));
