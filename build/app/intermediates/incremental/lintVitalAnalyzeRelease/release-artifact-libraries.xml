@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/arturdavydov/pets/imager/imager/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/arturdavydov/pets/imager/imager/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/arturdavydov/pets/imager/imager/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/arturdavydov/pets/imager_flutter/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/arturdavydov/pets/imager_flutter/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/arturdavydov/pets/imager_flutter/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
       name=":@@:battery_plus::release"
       jars="/Users/arturdavydov/.gradle/caches/8.12/transforms/e31b2299789463fb608a8737f94a8feb/transformed/out/jars/classes.jar:/Users/arturdavydov/.gradle/caches/8.12/transforms/e31b2299789463fb608a8737f94a8feb/transformed/out/jars/libs/R.jar"
       resolved="dev.fluttercommunity.plus.battery:battery_plus:1.0-SNAPSHOT"
-      partialResultsDir="/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/arturdavydov/.gradle/caches/8.12/transforms/e31b2299789463fb608a8737f94a8feb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"

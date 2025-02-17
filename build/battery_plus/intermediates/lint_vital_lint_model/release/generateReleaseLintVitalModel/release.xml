@@ -3,10 +3,10 @@
     package="dev.fluttercommunity.plus.battery"
     minSdkVersion="19"
     targetSdkVersion="19"
-    mergedManifest="/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
-    manifestMergeReport="/Users/arturdavydov/pets/imager/imager/build/battery_plus/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/default_proguard_files/global/proguard-android.txt-8.7.3"
-    partialResultsDir="/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
+    mergedManifest="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/default_proguard_files/global/proguard-android.txt-8.7.3"
+    partialResultsDir="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -21,11 +21,11 @@
   <testFixturesSourceProviders>
   </testFixturesSourceProviders>
   <artifact
-      classOutputs="/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/arturdavydov/pets/imager/imager/build/battery_plus/tmp/kotlin-classes/release:/Users/arturdavydov/pets/imager/imager/build/battery_plus/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      classOutputs="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/arturdavydov/pets/imager_flutter/build/battery_plus/tmp/kotlin-classes/release:/Users/arturdavydov/pets/imager_flutter/build/battery_plus/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
       type="MAIN"
       applicationId="dev.fluttercommunity.plus.battery"
-      generatedSourceFolders="/Users/arturdavydov/pets/imager/imager/build/battery_plus/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/Users/arturdavydov/pets/imager/imager/build/battery_plus/generated/res/resValues/release"
+      generatedSourceFolders="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/arturdavydov/pets/imager_flutter/build/battery_plus/generated/res/resValues/release"
       desugaredMethodsFiles="/Users/arturdavydov/.gradle/caches/8.12/transforms/73b18b472b856d6297d2404970659076/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

@@ -1,12 +1,12 @@
-# The proguard configuration file for the following section is /Users/arturdavydov/pets/imager/imager/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/arturdavydov/pets/imager_flutter/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
 -keep class com.example.imager.MainActivity { <init>(); }
 
-# End of content from /Users/arturdavydov/pets/imager/imager/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/arturdavydov/pets/imager/imager/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.3
+# End of content from /Users/arturdavydov/pets/imager_flutter/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/arturdavydov/pets/imager_flutter/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.3
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -97,7 +97,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/arturdavydov/pets/imager/imager/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.3
+# End of content from /Users/arturdavydov/pets/imager_flutter/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.3
 # The proguard configuration file for the following section is /Users/arturdavydov/pets/sdk/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**

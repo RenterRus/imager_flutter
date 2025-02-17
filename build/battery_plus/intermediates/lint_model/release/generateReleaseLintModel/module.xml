@@ -5,7 +5,7 @@
     type="LIBRARY"
     maven="dev.fluttercommunity.plus.battery:battery_plus:1.0-SNAPSHOT"
     agpVersion="8.7.3"
-    buildFolder="/Users/arturdavydov/pets/imager/imager/build/battery_plus"
+    buildFolder="/Users/arturdavydov/pets/imager_flutter/build/battery_plus"
     bootClassPath="/Users/arturdavydov/Library/Android/sdk/platforms/android-34/android.jar:/Users/arturdavydov/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
     javaSourceLevel="17"
     compileTarget="android-34"

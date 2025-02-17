@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:2:5-67
-11-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:2:22-64
+11-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:2:22-64
 12    <!--
 13         Required to query activities that can process text, see:
 14         https://developer.android.com/training/package-visibility and
@@ -19,16 +19,16 @@
 17         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 18    -->
 19    <queries>
-19-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:40:5-45:15
+19-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:40:5-45:15
 20        <intent>
-20-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:41:9-44:18
+20-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:41:9-44:18
 21            <action android:name="android.intent.action.PROCESS_TEXT" />
-21-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:42:13-72
-21-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:42:21-70
+21-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:42:13-72
+21-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:42:21-70
 22
 23            <data android:mimeType="text/plain" />
-23-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:43:13-50
-23-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:43:19-48
+23-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:43:13-50
+23-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:43:19-48
 24        </intent>
 25    </queries>
 26
@@ -45,32 +45,32 @@
 32
 33    <application
 34        android:name="android.app.Application"
-34-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:5:9-42
+34-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:5:9-42
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 35-->[androidx.core:core:1.13.1] /Users/arturdavydov/.gradle/caches/8.12/transforms/f9e43caef8056ac2c6ab01d54f00ab83/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 36        android:extractNativeLibs="true"
 37        android:icon="@mipmap/ic_launcher"
-37-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:6:9-43
+37-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:6:9-43
 38        android:label="imager" >
-38-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:4:9-31
+38-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:4:9-31
 39        <activity
-39-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:7:9-28:20
+39-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:7:9-28:20
 40            android:name="com.example.imager.MainActivity"
-40-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:8:13-41
+40-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:8:13-41
 41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-41-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:13:13-163
+41-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:13:13-163
 42            android:exported="true"
-42-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:9:13-36
+42-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:9:13-36
 43            android:hardwareAccelerated="true"
-43-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:14:13-47
+43-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:14:13-47
 44            android:launchMode="singleTop"
-44-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:10:13-43
+44-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:10:13-43
 45            android:taskAffinity=""
-45-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:11:13-36
+45-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:11:13-36
 46            android:theme="@style/LaunchTheme"
-46-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:12:13-47
+46-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:12:13-47
 47            android:windowSoftInputMode="adjustResize" >
-47-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:15:13-55
+47-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:15:13-55
 48
 49            <!--
 50                 Specifies an Android theme to apply to this Activity as soon as
@@ -79,21 +79,21 @@
 53                 to determine the Window background behind the Flutter UI.
 54            -->
 55            <meta-data
-55-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:20:13-23:17
+55-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:20:13-23:17
 56                android:name="io.flutter.embedding.android.NormalTheme"
-56-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:21:15-70
+56-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:21:15-70
 57                android:resource="@style/NormalTheme" />
-57-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:22:15-52
+57-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:22:15-52
 58
 59            <intent-filter>
-59-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:24:13-27:29
+59-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:24:13-27:29
 60                <action android:name="android.intent.action.MAIN" />
-60-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:25:17-68
-60-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:25:25-66
+60-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:25:17-68
+60-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:25:25-66
 61
 62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:26:17-76
-62-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:26:27-74
+62-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:26:17-76
+62-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:26:27-74
 63            </intent-filter>
 64        </activity>
 65        <!--
@@ -101,11 +101,11 @@
 67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 68        -->
 69        <meta-data
-69-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:31:9-33:33
+69-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:31:9-33:33
 70            android:name="flutterEmbedding"
-70-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:32:13-44
+70-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:32:13-44
 71            android:value="2" />
-71-->/Users/arturdavydov/pets/imager/imager/android/app/src/main/AndroidManifest.xml:33:13-30
+71-->/Users/arturdavydov/pets/imager_flutter/android/app/src/main/AndroidManifest.xml:33:13-30
 72
 73        <uses-library
 73-->[androidx.window:window:1.2.0] /Users/arturdavydov/.gradle/caches/8.12/transforms/9e132d0fb89d0e8edaaa74f9efdbd044/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40

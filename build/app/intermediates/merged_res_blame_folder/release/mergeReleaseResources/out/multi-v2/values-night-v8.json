@@ -4,7 +4,7 @@
             "outputFile": "com.example.imager.app-mergeReleaseResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/arturdavydov/pets/imager/imager/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/arturdavydov/pets/imager_flutter/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
